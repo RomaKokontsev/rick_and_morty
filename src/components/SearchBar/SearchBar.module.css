@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.input {
+  min-height: 30px;
+  min-width: 200px;
+  font-size: medium;
+  outline: none;
+  margin-right: 20px;
+  border-radius: 4px;
+  padding: 5px 15px;
+
+  border: 1px solid black;
+  font-family: "Bangers", cursive !important;
+}
+
+.searchbutton {
+  height: 34px;
+  width: 100px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid black;
+  outline: none;
+  margin-right: 10px;
+  font-family: "Bangers", cursive !important;
+  font-size: 16px;
+  background-color: inherit;
+}
+
+.searchbutton:hover,
+.searchbutton:focus {
+  background-color: #2196f3;
+}
+
+.clear:hover,
+.clear:focus {
+  background-color: red;
+}

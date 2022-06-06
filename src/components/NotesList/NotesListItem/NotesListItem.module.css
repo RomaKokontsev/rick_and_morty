@@ -1,0 +1,62 @@
+.item {
+  position: relative;
+  box-sizing: border-box;
+  width: calc((100% - 100px) / 4);
+  height: 230px;
+  padding: 25px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+.done {
+  text-decoration: solid line-through black 2px;
+}
+
+.title {
+  color: #2196f3;
+  margin: 0;
+  display: block;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: pre;
+}
+
+.description {
+  display: block;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  height: 90px;
+  word-break: break-all;
+}
+.buttonClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 10px;
+}
+.no_description {
+  position: relative;
+}
+.img {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: inherit;
+  top: -10px;
+  right: 50px;
+}
+.checkbox {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
